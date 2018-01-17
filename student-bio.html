@@ -4,23 +4,58 @@
       <title>Student Profile</title>
     </head>
     <body>
-      <h1>Student Bio</h1>
-      <h2>Brandon Romo</h2>
-      <img src="model.jpg" width="200"/>
-        <p>
-          <h3>I am 18 years old. I love to travel, I want to be able to travel everywhere in the world be fore I die.
-            I also want to visit every baseball stadium in the U.S.</h3>
-            <a href="https://www.lipsum.com">www.lipsum.com</a><strong>
-        </p>
-      <h1>Contact Info</h1>
-      <ul>
-        <li>
-          <strong>Email:</strong> <a href="mailto:brandonromo1302yahoo.com">brandonromo130@yahoo.com</a>
-        </li>
-        <li>
-          Github: <a href="github.com/bromo6">bromo6</a>
-        </li>
-        <li>
-          Portfolio: <a href="">Coming Soon!</a>
-        </li>
-      </ul>
+        <style>
+        /* start css */
+        h1 {
+          font-size:50px;
+          color:white;
+          text-align: center;
+          background: black;
+        }
+        a {
+          color: red;
+        }
+        .profile {
+          width: 400px;
+          float: left;
+        }
+        .contact {
+          width: 200px;
+          float: right;
+        }
+        img {
+          width: 150px;
+          float: left;
+          padding: 10px;
+        }
+        p {
+          width: 150px;
+          float: left;
+        }
+        /* end css */
+        </style>
+        <h1>Student Bio</h1>
+
+        <div class="profile">
+          <h2>Brandon Romo</h2>
+          <img src="model.jpg" width="200"/>
+          <h4>I am 18 years old. I also want to visit every baseball stadium in the U.S.</h4>
+          <a href="https://www.lipsum.com">www.lipsum.com</a><strong>
+        </div>
+
+
+
+
+          <div class="contact">
+          <h3>Contact Info</h3>
+          <ul>
+            <li>
+              <strong>Email:</strong> <a href="mailto:brandonromo1302yahoo.com">brandonromo130@yahoo.com</a>
+            </li>
+            <li>
+              Github: <a href="github.com/bromo6">bromo6</a>
+            </li>
+            <li>
+              Portfolio: <a href="">Coming Soon!</a>
+            </li>
+          </ul>
